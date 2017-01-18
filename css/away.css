@@ -1,0 +1,13 @@
+.duel {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  text-align: center;
+  padding: 100px;
+}
+.duel h2 {
+  width: 100%;
+}
+.duel section {
+  width: 45%;
+}
