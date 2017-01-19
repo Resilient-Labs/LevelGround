@@ -15,6 +15,11 @@
   border-radius: 50%;
   width: 100px;
   height: 100px;
+  background-color: #fdc43a;
+  margin: 0 auto;
+}
+.different-color {
+  background-color: grey;
 }
 .swipe-dots {
   display: flex;
@@ -30,13 +35,20 @@
   background-color: lightgrey;
 }
 .one {
-  background-color: grey;
+  background-color: #fdc43a;
 }
 
 /*------------------------------------------------------------------------------
     Media Queries
 ------------------------------------------------------------------------------*/
 @media  (max-width:767px) and (orientation:portrait) {
+  .header-options {
+    flex-flow: column;
+  }
+  .header-options .holder {
+    width: 100%;
+    margin-bottom: 200px;
+  }
   .swipe-section .option {
     width: 100%;
   }

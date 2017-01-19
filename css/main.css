@@ -149,7 +149,7 @@ button {
    ========================================================================== */
 
 h1 {
-  color: #fdc43a!important;
+  color: #fdc43a;
   text-transform: uppercase;
   font-size: 64px!important;
   font-family: 'Roboto',sans-serif;
@@ -160,13 +160,13 @@ h2 {
   font-family: 'Roboto',sans-serif;
 }
 h3 {
-  color: #fdc43a!important;
+  color: #fdc43a;
   font-family: 'Roboto',sans-serif;
   width: 100%;
 }
 h4{
   text-transform: uppercase;
-  color: #fdc43a!important;
+  color: #fdc43a;
   width: 100%;
 }
 h5{
