@@ -14,6 +14,9 @@ header.gym {
 header.away {
   background-image: url(../img/LG1_8170.jpg);
 }
+header.donate {
+  background-image: url(../img/SOR_6496.jpg);
+}
 header.tracks p, header.tracks h1, header.tracks nav a, header.tracks h3{
   color: #fff;
 }
