@@ -142,8 +142,19 @@ button {
 .change-background-color h3 {
   color: #fff!important;
 }
+button a {
+  color: #fff;
+  text-decoration: none;
+}
 .change-background-color button {
   background-color: #fff;
+  color: #fdc43a;
+}
+.change-background-color button a {
+  color: #fdc43a;
+  text-decoration: none;
+}
+header.change-background-color button a {
   color: #fdc43a;
 }
 .post i {

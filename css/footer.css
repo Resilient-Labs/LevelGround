@@ -61,3 +61,7 @@ footer i {
 footer h5 {
   margin: 0;
 }
+footer ul a {
+  color: #fff;
+  text-decoration: none;
+}
