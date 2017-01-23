@@ -59,3 +59,55 @@
   margin: 20px auto;
 
 }
+.comment > textarea {
+  columns: 80;
+}
+
+/*------------------------------------------------------------------------------
+    Media Queries
+------------------------------------------------------------------------------*/
+@media  (max-width:767px) and (orientation:portrait) {
+  .post-links {
+    display: none;
+  }
+  .multi-post, .single-post {
+    width: 100%;
+    padding: 0;
+  }
+  .author-date {
+    flex-flow: column;
+  }
+  .author-date span{
+    width: 70%;
+  }
+  .inline-form {
+    flex-flow: column;
+  }
+  .comment > textarea {
+    columns: 50;
+  }
+}
+
+@media  (max-width:767px) and (orientation:landscape) {
+  .post-links {
+    display: none;
+  }
+  .multi-post, .single-post {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media  (max-width:1024px) and (orientation:portrait) {
+  .post-links {
+    display: none;
+  }
+  .multi-post, .single-post {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media  (max-width:1024px) and (orientation:landscape) {
+
+}

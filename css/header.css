@@ -24,7 +24,6 @@ header.tracks p, header.tracks h1, header.tracks nav a, header.tracks h3{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin-bottom: 300px;
 }
 nav {
   width: 90%;

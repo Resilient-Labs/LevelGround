@@ -1,3 +1,6 @@
+.header-options img {
+  width: 100%;
+}
 .stories {
   text-align: center;
   border-bottom: 1px solid grey;
@@ -47,7 +50,9 @@
   }
   .header-options .holder {
     width: 100%;
-    margin-bottom: 200px;
+  }
+  .swipe-section {
+    flex-flow: column;
   }
   .swipe-section .option {
     width: 100%;
@@ -55,7 +60,7 @@
 }
 
 @media  (max-width:767px) and (orientation:landscape) {
-
+  
 }
 
 @media  (max-width:1024px) and (orientation:portrait) {
