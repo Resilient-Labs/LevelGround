@@ -139,12 +139,18 @@ button {
   background-color: #fdc43a;
   color: #fff;
 }
+.change-background-color h3 {
+  color: #fff!important;
+}
 .change-background-color button {
   background-color: #fff;
   color: #fdc43a;
 }
 .post i {
   color: #fdc43a;
+}
+textarea {
+  margin: 0 auto;
 }
 
 /* ==========================================================================

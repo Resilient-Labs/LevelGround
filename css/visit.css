@@ -34,6 +34,7 @@
   }
   .option {
     width: 100%;
+    margin-bottom: 20px;
   }
   .option p {
     text-align: left;
